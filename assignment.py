@@ -27,7 +27,7 @@ def get_system_info():
 
 @app.route('/')
 def home():
-    return "Server is running. Go to /htop for system information."  # Fixed the message
+    return "Server is running. Go to /htop for system information."  
 
 @app.route('/htop')
 def htop():
